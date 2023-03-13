@@ -105,7 +105,7 @@ nav a:hover {
   text-align: center;
   opacity: 0;
   animation-name: fadeInUp;
-  animation-duration: 1s;
+  animation-duration: 1.2s;
   animation-delay: 1.3s;
   animation-fill-mode: forwards;
   display: flex;
