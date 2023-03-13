@@ -3,6 +3,11 @@
   src: url('fonts/MontBold.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'MontBookItalic';
+  src: url('fonts/MontBookItalic.ttf') format('truetype');
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -88,4 +93,9 @@ nav a {
 nav a:hover {
 	opacity: 0.5;
 	transition: opacity 0.2s ease;
+}
+
+.quote {
+  font-family: 'MontBookItalic', sans-serif;
+  color: white;
 }
