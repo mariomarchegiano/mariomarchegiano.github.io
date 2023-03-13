@@ -98,4 +98,5 @@ nav a:hover {
 .quote {
   font-family: 'MontBookItalic', sans-serif;
   color: white;
+  align-self: center;
 }
