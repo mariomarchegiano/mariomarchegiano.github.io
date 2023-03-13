@@ -8,6 +8,11 @@
   src: url('fonts/MontBookItalic.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'MontSemiBoldItalic';
+  src: url('fonts/MontSemiBoldItalic.ttf') format('truetype');
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -96,7 +101,6 @@ nav a:hover {
 }
 
 .quote {
-  font-family: 'MontBookItalic', sans-serif;
   color: white;
   text-align: center;
   opacity: 0;
@@ -104,6 +108,22 @@ nav a:hover {
   animation-duration: 1s;
   animation-delay: 1.3s;
   animation-fill-mode: forwards;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.quotephrase {
+  font-family: 'MontBookItalic', sans-serif;
+  margin-bottom: 0;
+}
+
+.mckinnon {
+  font-family: 'MontSemiBoldItalic', sans-serif;
+  color: white;
+  text-align: right;
+  text-decoration: none;
 }
 
 @keyframes fadeInUp {
