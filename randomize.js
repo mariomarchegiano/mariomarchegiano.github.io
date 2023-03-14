@@ -6,7 +6,7 @@ var phrases = [
 		{text: "You keep putting one foot in front of the other, and then one day you look back and you’ve climbed a mountain", author: "Tom Hiddleston"},
 		{text: "A good photograph is knowing where to stand", author: "Ansel Adams"},
 		{text: "I have a fondness for when the landscape becomes surreal", author: "Edward Burtynsky"},
-		{text: "Any landscape is a condition of the spirit", author: "Henri Frederic Amiel"}
+		{text: "Any landscape is a condition of the spirit", author: "Henri Frederic Amiel"},
 ]
 
 var quote = phrases[Math.floor(phrases.length * Math.random())]
