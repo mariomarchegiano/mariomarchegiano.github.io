@@ -115,6 +115,60 @@ nav a:hover {
 	margin: 0 auto;
 }
 
+.image-grid {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.grid-item-1 {
+  background-color: white;
+  width: 350px;
+  height: 350px;
+  margin: 10px;
+	opacity: 0;
+	animation-name: fadeIn;
+	animation-duration: 0.5s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+}
+
+.grid-item-2 {
+  background-color: white;
+  width: 350px;
+  height: 350px;
+  margin: 10px;
+	opacity: 0;
+	animation-name: fadeIn;
+	animation-duration: 0.5s;
+	animation-delay: 2.5s;
+	animation-fill-mode: forwards;
+}
+
+.grid-item-3 {
+  background-color: white;
+  width: 350px;
+  height: 350px;
+  margin: 10px;
+	opacity: 0;
+	animation-name: fadeIn;
+	animation-duration: 0.5s;
+	animation-delay: 3s;
+	animation-fill-mode: forwards;
+}
+
+.grid-item-4 {
+  background-color: white;
+  width: 350px;
+  height: 350px;
+  margin: 10px;
+	opacity: 0;
+	animation-name: fadeIn;
+	animation-duration: 0.5s;
+	animation-delay: 3.5s;
+	animation-fill-mode: forwards;
+}
+
 .quotephrase {
 	font-family: 'MontBookItalic', sans-serif;
 	margin-bottom: 0;
