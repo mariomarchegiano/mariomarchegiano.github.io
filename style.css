@@ -115,7 +115,7 @@ nav a:hover {
 	margin: 0 auto;
 }
 
-.image-grid {
+.image-grid-1 {
   display: flex;
   justify-content: center;
   margin-top: 150px;
@@ -167,6 +167,12 @@ nav a:hover {
 	animation-duration: 0.5s;
 	animation-delay: 3.5s;
 	animation-fill-mode: forwards;
+}
+
+.image-grid-2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
 }
 
 .quotephrase {
